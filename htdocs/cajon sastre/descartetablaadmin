@@ -1,0 +1,26 @@
+<body>
+        <table class="tabla" style="border: 1px solid black">
+            <tr>
+                <th></th>
+                <th>ID</th>
+                <th>User</th>
+                <th>Password</th>
+                <th>Name</th>
+                <th>Level</th>
+            </tr>
+
+            <?php
+            $fp = fopen("./security/login.txt", 'r');
+            while ($line = fgets($fp)) {
+                $vec = explode("#", $line);
+                ?>
+
+                <tr>
+                    <td><input type="checkbox" class="checkusers" laid="<?php echo $vec[0] ?>"></td>
+                    <td><?php echo $vec[0] ?></td>
+                    <td><?php echo $vec[1] ?></td>
+                    <td></td> <!-- dejo este td vacío para que no enseñe las contraseñas, burdo pero útil -->
+                    <td><input id="name<?php echo $results['id'] ?>" value="<?php echo $vec[3] ?>"></td>
+                    <td><input id="nivel<?php echo $vec[0] ?>" value="<?php echo $vec[4] ?>"></td>
+                    <?php } ?>
+            </body>

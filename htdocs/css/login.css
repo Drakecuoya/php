@@ -1,0 +1,17 @@
+#login{
+    width: 300px; 
+    margin: auto; 
+    margin-top: auto; 
+    background-color: #DAF7A6
+}
+
+#registro{
+    width: 500px; 
+    margin: auto; 
+    margin-top: auto; 
+    background-color: #DAA6F7
+}
+
+body{
+    background-color: #728550;
+}

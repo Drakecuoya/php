@@ -1,0 +1,60 @@
+table{
+    border: 1px solid;
+    border-color: black;
+    border-radius: 1px;
+    align-self: center;
+}
+
+.tablaAdmin{
+    align-self: center;
+}
+
+td{
+    border: 1px solid ;
+    border-color: black;
+    border-radius: 1px;
+}
+
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.imagen{
+    padding: 1%;
+    height: 90%;
+    align-content: center;
+}
+
+.marco {
+    margin: 5px;
+    border: 5px solid #000000;
+    float: left;
+    width: 380px;
+    height: 500px;
+    border-radius: 5%;
+    align-items: center;
+    justify-content: center;
+ }
+
+.marco img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5%;
+}
+
+.marco .nombre{
+    text-align: center;
+}
+
+.titulo{
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-style: oblique;
+   
+}

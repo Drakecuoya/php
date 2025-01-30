@@ -1,0 +1,150 @@
+body {
+  background-color: rgb(156, 202, 204);
+}
+#galeria{
+  margin:10px;
+}
+.galeriatrash, .galeria_fav, .galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.imagen {
+  padding: 1%;
+  height: 80%;
+  align-content: center;
+  text-align: center;
+}
+
+.marco {
+  margin: 15px;
+  border: 5px solid #000000;
+  float: left;
+  width: 380px;
+  height: 500px;
+  border-radius: 5%;
+  align-items: center;
+  justify-content: center;
+}
+
+.marco img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 5%;
+}
+
+.nombre {
+  height: 20%;
+
+  text-align: center;
+  display: block;
+}
+
+.title {
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: xx-large;
+  font-style: oblique;
+}
+
+h1{
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: xx-large;
+  font-style: oblique;
+}
+
+#buttoncan, #restcan {
+  background-color: #04aa6d; 
+  border: none;
+  color: white;
+  padding: 13px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#botonborrarfotos {
+  background-color: #ec0202; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+}
+
+#buttoncan:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.galfav, .can, .galeriamain {
+  border: black solid;
+  margin-top:2px;
+}
+
+
+#imagenamigos{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  padding: 10px;
+} 
+
+#cuadroAmigos{
+  padding: 5%
+}
+
+#gotoadmin{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  padding: 10px;
+}
+
+#listamigos, #sugerenciasamigos {
+  position: absolute;
+  background-color: burlywood;
+  top: 10;
+  right: 0;
+  padding: 10px;
+  border: #000000 solid;
+  height: fit-content;
+  width:max-content
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #998181;
+}
+
+li {
+  float: left;
+}
+
+#imgadd, #imgremove{
+text-align: center;
+}
+
+#fav, #desfav, #trashcan{
+  background-color: #0b583c; 
+  border: none;
+  color: white;
+  padding: 13px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
